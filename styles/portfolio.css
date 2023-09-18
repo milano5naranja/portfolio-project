@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: azure;
+  font-family: dosis;
+  font-size: 55px;
+  text-align: center;
+}
+
+p {
+  color: azure;
+  font-family: dosis;
+  text-align: center;
+  font-size: 30px;
+}
