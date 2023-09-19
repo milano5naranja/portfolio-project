@@ -6,22 +6,7 @@
 
 body {
   background: black;
-}
-
-h1 {
-  color: black;
   font-family: var(--default-font-family);
-  font-size: 55px;
-  text-align: center;
-  padding: 10px;
-}
-
-.hero h3 {
-  color: black;
-  font-family: var(--default-font-family);
-  text-align: center;
-  font-size: 36px;
-  margin: 0px;
 }
 
 .hero {
@@ -30,11 +15,46 @@ h1 {
   background: var(--secondary-color);
 }
 
+.hero h1 {
+  color: black;
+  font-family: var(--default-font-family);
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+}
+
 .hero h2 {
   font-family: var(--default-font-family);
   line-height: 2;
   font-size: 24px;
   color: black;
+}
+
+.hero p {
+  color: var(--branding-color);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
+  font-size: 55px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-family: var(--default-font-family);
+  line-height: 2;
+  font-size: 24px;
+  color: var(--branding-color);
+}
+
+p {
+  color: var(--branding-color);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
 }
 
 .btn-branding {
@@ -45,17 +65,6 @@ h1 {
   font-family: var(--default-font-family);
 }
 
-p {
-  color: var(--branding-color);
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 2;
-}
-
-h4 {
-  color: var(--branding-color);
-  font-family: var(--default-font-family);
-  font-size: 55px;
-}
 .btn-branding-outline {
   background: var(--branding-color);
   color: black;
@@ -77,9 +86,6 @@ h4 {
     font-size: 44px;
   }
 
-  h4 {
-    font-size: 44px;
-  }
   .project-description {
     padding: 0;
     text-align: center;
