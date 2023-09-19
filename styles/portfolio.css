@@ -85,7 +85,9 @@ p {
   h1 {
     font-size: 44px;
   }
-
+  .hero h1 {
+    font-size: 44px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
