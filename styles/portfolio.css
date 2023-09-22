@@ -92,4 +92,21 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  .about-section {
+    text-align: center;
+  }
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+.about-section {
+  padding: 100px;
+}
+
+.about-section h1 {
+  text-align: left;
 }
