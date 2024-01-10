@@ -93,7 +93,7 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
   }
 }
@@ -103,10 +103,10 @@ img {
   height: auto;
 }
 
-.about-section {
+.content-container {
   padding: 100px;
 }
 
-.about-section h1 {
+.content-container h1 {
   text-align: left;
 }
