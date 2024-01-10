@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jenni Salmi portfolio</title>
+    <meta name="description" content="Jenni is a junior front-end developer based in Portugal.">
+    <title>Front-end developer - Jenni Salmi</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -32,6 +33,16 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li class="active"><a href="/" title="Homepage">Home </a></li>
+          <li><a href="/about.html" title="About Jenni">About </a></li>
+          <li><a href="/work.html" title="Jenni's work">Work </a></li>
+          <li><a href="/contact.html" title="Contact Jenni">Contact </a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <h3><i class="fa-solid fa-hippo"></i> Hello, I am</h3>
       <h1>Jenni Salmi</h1>
@@ -46,7 +57,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/WeatherImage.png" class="img-fluid" alt="" />
+          <img src="images/WeatherImage.png" class="img-fluid" alt="Weather project preview" />
         </div>
 
         <div class="col">
@@ -59,7 +70,7 @@
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
               minima fugiat explicabo eum dolore.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more</a>
           </div>
         </div>
       </div>
@@ -75,17 +86,17 @@
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
               minima fugiat explicabo eum dolore.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more</a>
           </div>
         </div>
         <div class="col d-none d-md-block">
-          <img src="images/clockImage.png" class="img-fluid" alt="" />
+          <img src="images/clockImage.png" class="img-fluid" alt="World Clock preview" />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/CatImage.png" class="img-fluid" alt="" />
+          <img src="images/CatImage.png" class="img-fluid" alt="Cat page preview" />
         </div>
 
         <div class="col">
@@ -98,39 +109,40 @@
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
               minima fugiat explicabo eum dolore.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more</a>
           </div>
         </div>
       </div>
       <footer>
         <div class="contact-box d-flex justify-content-between mb-5">
           <div>
-          <h4>
+          <h5>
             Work inquiry
-          </h4>
+          </h5>
           <p class="text-muted">Let's work together</p>
           </div>
           <div>
-          <a href="" class="btn btn-branding">Contact me</a>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Jenni">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
           <a href="mailto:jenni@gmail.com" 
-          class="email-link"> 
+          class="email-link" title="Email Jenni"> 
           jenni@gmail.com
         </a>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
           <a href="https://www.github.com/milano5naranja"
-          target="_blank">
+          target="_blank" title="GitHub Profile">
       <i class="fa-brands fa-github"></i>
       </a>
 
       <a href="https://www.linkedin.com/jennimaria/"
-       target="_blank">
+       target="_blank" title="LinkedIn Profile">
     <i class="fa-brands fa-linkedin"></i>
     </a>
   </div>
+  <p class="text-center mt-4"> This project was coded with SheCodes, and it is open-sourced</p>
 </footer>
     </div>
   </body>
