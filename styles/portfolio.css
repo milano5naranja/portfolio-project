@@ -140,7 +140,9 @@ h5 {
 p {
   color: var(--branding-color);
   font-family: var(--default-font-family);
-  line-height: 2;
+ 
+  font-size: 20px;
+  line-height: 30px;
 }
 
 
@@ -221,5 +223,6 @@ img {
   font-family: var(--default-font-family);
 }
 .content-container p {
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 30px;
 }
